@@ -1,0 +1,14 @@
+security:
+  basic:
+    enabled: true
+  user:
+    name: tiankong
+    password: 123456
+server:
+  port: 4000
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    service-url:
+      defaultZone: http://tiankong:123456@localhost:4000/eureka
